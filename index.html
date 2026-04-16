@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeDental - Software de Gestión para Consultorios Dentales</title>
+    <meta name="description" content="Software integral para la gestión de tu consultorio dental. Agenda de citas, expedientes clínicos, odontograma digital, facturación y más.">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="img/logo-dental-1.png" alt="Logo LifeDental" class="brand-logo">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#modulos">Módulos</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto" class="btn btn-nav">Solicitar Demo</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Software en la Nube</span>
+                <h1>Gestiona tu consultorio dental de forma <span class="text-gradient">inteligente</span></h1>
+                <p class="hero-subtitle">La plataforma todo-en-uno que simplifica la administración de tu clínica dental. Agenda citas, gestiona expedientes, controla inventario y factura — todo desde un solo lugar.</p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="btn btn-primary btn-lg">Solicitar Demo Gratis</a>
+                    <a href="#funcionalidades" class="btn btn-outline btn-lg">Ver Funcionalidades</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>En la nube</span>
+                    </div>
+                    <div class="stat">
+                        <strong>24/7</strong>
+                        <span>Soporte técnico</span>
+                    </div>
+                    <div class="stat">
+                        <strong>256-bit</strong>
+                        <span>Cifrado SSL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-mockup">
+                    <img src="img/dashboard-integral.png" alt="Vista del dashboard integral de LifeDental" class="hero-mockup-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Funcionalidades -->
+    <section id="funcionalidades" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Funcionalidades</span>
+                <h2>Todo lo que necesitas para gestionar tu consultorio</h2>
+                <p>Herramientas diseñadas específicamente para profesionales dentales que buscan eficiencia y organización.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </div>
+                    <h3>Agenda de Citas</h3>
+                    <p>Programa, reprograma y gestiona citas con un calendario inteligente. Recordatorios automáticos por WhatsApp y email.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Expedientes Clínicos</h3>
+                    <p>Historial completo de cada paciente con antecedentes médicos, tratamientos realizados y notas clínicas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 6 4.5 6 7.5C6 10 7 11.5 8 13C9 14.5 9 16 9 18H15C15 16 15 14.5 16 13C17 11.5 18 10 18 7.5C18 4.5 16 2 12 2Z"/><line x1="9" y1="22" x2="15" y2="22"/><line x1="10" y1="18" x2="10" y2="22"/><line x1="14" y1="18" x2="14" y2="22"/></svg>
+                    </div>
+                    <h3>Odontograma Digital</h3>
+                    <p>Registra el estado dental de cada paciente con un odontograma interactivo. Marca tratamientos, caries y restauraciones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    </div>
+                    <h3>Control de Inventario</h3>
+                    <p>Administra materiales, instrumentos y productos. Alertas de stock bajo y seguimiento de proveedores.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
+                    <h3>Facturación y Pagos</h3>
+                    <p>Genera facturas, controla cobros pendientes y lleva un registro financiero completo de tu consultorio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
+                    <h3>Reportes y Estadísticas</h3>
+                    <p>Dashboards con métricas clave: ingresos, pacientes atendidos, tratamientos más solicitados y más.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Módulos / Screenshots -->
+    <section id="modulos" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Módulos</span>
+                <h2>Conoce algunos módulos de LifeDental</h2>
+                <p>Cada módulo está diseñado para optimizar un área específica de tu consultorio.</p>
+            </div>
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/modulo-principal-5-en-uno.png" alt="Vista del módulo principal de LifeDental" class="module-screenshot-image">
+                    </div>
+                    <h3>Agenda y Calendario</h3>
+                    <p>Vista diaria, semanal y mensual. Arrastra y suelta para reprogramar. Filtros por doctor y consultorio.</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/modulo-pacientes.jpg" alt="Vista del módulo de pacientes" class="module-screenshot-image">
+                    </div>
+                    <h3>Gestión de Pacientes</h3>
+                    <p>Ficha completa del paciente con datos personales, historial médico, tratamientos y fotografías.</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/odontograma-1.png" alt="Vista del módulo de odontograma" class="module-screenshot-image">
+                    </div>
+                    <h3>Odontograma Digital</h3>
+                    <p>Mapa dental interactivo con registro de hallazgos, tratamientos planificados y realizados por pieza.</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/modulo-ingresos-pagos.jpg" alt="Vista del módulo de ingresos y pagos" class="module-screenshot-image">
+                    </div>
+                    <h3>Facturación y Cobros</h3>
+                    <p>Genera presupuestos, facturas y recibos. Control de pagos parciales y cuentas por cobrar.</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/modulo-clinico.png" alt="Vista del resumen clínico" class="module-screenshot-image">
+                    </div>
+                    <h3>Resumen Clínico</h3>
+                    <p>Acceso rápido al historial completo del paciente, diagnósticos, tratamientos y observaciones clínicas.</p>
+                </div>
+                <div class="module-card">
+                    <div class="module-screenshot">
+                        <img src="img/modulo-recordatorios.png" alt="Vista del módulo de recordatorios" class="module-screenshot-image">
+                    </div>
+                    <h3>Recordatorios</h3>
+                    <p>Sistema inteligente de recordatorios para citas, tratamientos y seguimientos de pacientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas -->
+    <section id="ventajas" class="section advantages-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Por qué elegirnos</span>
+                <h2>Ventajas de LifeDental</h2>
+                <p>Más que un software, una solución completa para modernizar tu práctica dental.</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-number">01</div>
+                    <h3>100% en la Nube</h3>
+                    <p>Accede desde cualquier dispositivo con conexión a internet. Sin instalaciones ni servidores costosos.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">02</div>
+                    <h3>Fácil de Usar</h3>
+                    <p>Interfaz intuitiva diseñada para que tú y tu equipo la dominen en minutos, no en semanas.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">03</div>
+                    <h3>Seguridad de Datos</h3>
+                    <p>Cifrado de extremo a extremo, respaldos automáticos diarios y cumplimiento con normas de privacidad.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">04</div>
+                    <h3>Soporte Dedicado</h3>
+                    <p>Equipo de soporte técnico disponible para ayudarte. Capacitación incluida en todos los planes.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">05</div>
+                    <h3>Personalizable</h3>
+                    <p>Adapta la plataforma a las necesidades específicas de tu consultorio o clínica dental.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-number">06</div>
+                    <h3>Actualizaciones Constantes</h3>
+                    <p>Mejoras y nuevas funciones se agregan periódicamente sin costo adicional para ti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precios -->
+    <section id="precios" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Planes</span>
+                <h2>Elige el plan ideal para tu consultorio</h2>
+                <p>Planes flexibles que se adaptan al tamaño de tu clínica. Sin contratos a largo plazo.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Imprescindible</h3>
+                        <p class="pricing-desc">Ideal para consultorios que buscan control clínico y administrativo en una sola plataforma, con tarifa escalonada por número de usuarios.</p>
+                        <div class="pricing-amount">
+                            <span class="currency">$</span>
+                            <span class="price">1,500</span>
+                            <span class="period">/mes MXN</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Panel de trabajo Dashboard intuitivo, bellamente diseñado y estructurado, de fácil manejo y sin necesidad de capacitación especializada.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Inicios de sesión controlados con seguridad, por usuario y perfil autorizado.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Registro y directorio de colaboradores, doctores, laboratorios y proveedores.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gestión de citas mediante calendario y horario visual, mostrando días y horarios disponibles para ahorrar tiempo en la búsqueda de espacios.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Selección y consulta de pacientes actuales en tratamiento o históricos.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Registro de citas por doctor y paciente, gestionando pendientes y confirmadas.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Historial clínico y de tratamiento por paciente, que permite retomar la continuidad desde su inicio hasta la conclusión.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Control de piezas dentales con tratamiento específico en odontograma digital, almacenado por cada paciente.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Almacenamiento de imágenes como radiografías y fotos de antes y después por paciente.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Registro y directorio de pacientes actuales o dados de baja, con opción de modificar datos personales, teléfono, dirección y correo.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Control de pagos por paciente y tratamiento: pagos parciales por efectivo, transferencia, tarjeta de débito o crédito, con saldos y liquidación.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Resumen clínico profesional imprimible por paciente, incluyendo historial concluido, odontograma visual, presupuesto y pagos realizados.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Registro de ingresos por doctor al día.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Incremento de espacio en la base de datos de pacientes y su operatividad, con opción de crecimiento según tus necesidades.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Respaldos automáticos de toda tu información, sin preocupación adicional.</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-outline btn-block">Comenzar</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-popular">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3>Profesional</h3>
+                        <p class="pricing-desc">Incluye todo lo del Plan Imprescindible, más herramientas avanzadas para optimizar tu consultorio (2 a 3 usuarios).</p>
+                        <div class="pricing-amount">
+                            <span class="currency">$</span>
+                            <span class="price">2,300</span>
+                            <span class="period">/mes MXN</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Rango de usuarios: 2 a 3.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Incluye todo lo del Plan Imprescindible.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Integración con SMS y WhatsApp para comunicación directa con pacientes.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Recordatorios automáticos un día antes de la cita, con opción de respuesta inmediata.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Confirmación instantánea de citas al momento del registro del paciente.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Listado diario de recordatorios enviados, confirmados y pendientes.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Control de 4 tipos de inventarios: mobiliario, instrumental, medicamentos y suministros.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Información Flash por doctor con consultas confirmadas, pendientes o declinadas.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Cierre financiero diario con ingresos, egresos y ajustes por omisión o duplicidad.</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary btn-block">Comenzar</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Clínico</h3>
+                        <p class="pricing-desc">Incluye todo lo del Plan Imprescindible y Profesional, más herramientas avanzadas de análisis y control (4 a 5 usuarios).</p>
+                        <div class="pricing-amount">
+                            <span class="currency">$</span>
+                            <span class="price">2,600</span>
+                            <span class="period">/mes MXN</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Rango de usuarios: 4 a 5.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Incluye todo lo del Plan Imprescindible y del Plan Profesional.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Reportes completos: Citas, Pagos, Pacientes, Ingresos, Egresos, Personal, Instrumental, Mobiliario, Suministros y Suministros Generales.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Visión financiera completa con gastos, ingresos y egresos organizados.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gestión clínica detallada con reportes de citas, pacientes y tratamientos.</li>
+                        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Gráfica financiera semanal con análisis de tendencias de ingresos y egresos.</li>
+
+                    </ul>
+                    <a href="#contacto" class="btn btn-outline btn-block">Contactar Ventas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonios</span>
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Dentistas que ya confían en LifeDental para gestionar sus consultorios.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <blockquote>"Desde que implementamos LifeDental, la organización de mi consultorio mejoró radicalmente. Mis pacientes reciben recordatorios automáticos y ya casi no hay citas perdidas."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JP</div>
+                        <div>
+                            <strong>Dr. Juan Pérez</strong>
+                            <span>Clínica Dental Sonrisa</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <blockquote>"El módulo de facturación me ahorra horas de trabajo cada semana. Puedo generar reportes al instante y tener un control total de mis finanzas."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MG</div>
+                        <div>
+                            <strong>Dra. María García</strong>
+                            <span>Centro Dental Integral</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <blockquote>"Llevamos 3 sucursales con LifeDental y la gestión centralizada es increíble. Puedo ver el rendimiento de cada clínica desde mi computadora en cualquier momento."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RL</div>
+                        <div>
+                            <strong>Dr. Roberto López</strong>
+                            <span>DentGroup (3 sucursales)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2>Preguntas frecuentes</h2>
+            </div>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>¿La aplicación funciona en la nube?</summary>
+                    <p>Sí, LifeDental es 100% en la nube. Se accede a través de cualquier navegador web moderno en computadoras de escritorio o portátiles con conexión a internet estable. Esto garantiza el óptimo desempeño de todas las funcionalidades, el manejo seguro de grandes volúmenes de datos y la adaptabilidad de la interfaz.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>¿Puedo exportar mis datos?</summary>
+                    <p>Por supuesto. Tienes opciones de exportación en formato Excel y PDF. Además, realizamos respaldos automáticos diarios de toda tu información.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>¿Qué tan segura es la información de mis pacientes?</summary>
+                    <p>Usamos cifrado SSL de 256 bits, respaldos automáticos diarios y servidores seguros. La información de tus pacientes está protegida con los más altos estándares de seguridad.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>¿Ofrecen soporte técnico?</summary>
+                    <p>Sí, todos los planes incluyen soporte técnico. El plan Clínico incluye soporte 24/7 con un ejecutivo dedicado. Además, ofrecemos capacitación inicial sin costo.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>¿Hay un periodo de prueba?</summary>
+                    <p>Ofrecemos una demostración personalizada sin compromiso. Contáctanos para agendar tu demo gratuita y conocer todas las funcionalidades.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>¿Puedo cambiar de plan después?</summary>
+                    <p>Sí, puedes escalar tu plan en cualquier momento sin perder tu información. El cambio se aplica de inmediato.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Moderniza tu consultorio dental hoy</h2>
+                <p>Únete a los dentistas que ya gestionan su consultorio de forma inteligente con LifeDental.</p>
+                <div class="cta-columns">
+                    <div class="cta-text-block">
+                        <h3>Acceso sin complicaciones</h3>
+                        <p>Como profesional en Odontología, no necesitas conocimientos técnicos para aprovechar al máximo este software. Está diseñado de forma modular y accesible desde cualquier navegador, sin instalaciones ni equipos adicionales. Solo requieres una laptop con conexión a internet para disfrutar todas sus funciones al 100%.</p>
+                    </div>
+                    <div class="cta-text-block">
+                        <h3>Seguridad y confianza en la nube</h3>
+                        <p>No necesitas preocuparte por la protección de tu equipo ni por la información confidencial de tus colaboradores y pacientes. Todo está resguardado en la nube con acceso seguro a tu aplicación. Además, cuentas con un espacio garantizado y 100% escalable, diseñado para crecer al ritmo de tu consultorio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Contacto</span>
+                <h2>Solicita tu demo gratuita</h2>
+                <p>Completa el formulario y nos pondremos en contacto contigo para agendar una demostración personalizada.</p>
+            </div>
+            <div class="contact-grid">
+                <form class='contact-form' id='contactForm' method='POST' name='contacto-demo'>
+                    <input type="hidden" name="form-name" value="contacto-demo">
+                    <p style="display:none">
+                        <label>No llenar: <input name="bot-field"></label>
+                    </p>
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Dr. Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="doctor@clinica.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / WhatsApp</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+52 55 1234 5678">
+                    </div>
+                    <div class="form-group">
+                        <label for="consultorio">Nombre del consultorio o clínica</label>
+                        <input type="text" id="consultorio" name="consultorio" placeholder="Clínica Dental Sonrisa">
+                    </div>
+                    <div class="form-group">
+                        <label for="plan">Plan de interés</label>
+                        <select id="plan" name="plan">
+                            <option value="">Selecciona un plan</option>
+                            <option value="imprescindible">Imprescindible - desde $1,500/mes</option>
+                            <option value="profesional">Profesional - desde $2,000/mes</option>
+                            <option value="clinico">Clínico - desde $2,300/mes</option>
+                            <option value="no-seguro">Aún no estoy seguro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje (opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu consultorio o alguna pregunta que tengas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Solicitar Demo Gratis</button>
+                    <p class="form-note">Sin compromiso. Te contactaremos en menos de 24 horas.</p>
+                    <div id="formSuccess" class="form-success" style="display:none;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <h3>Solicitud enviada</h3>
+                        <p>Gracias por tu interés. Nos pondremos en contacto contigo pronto.</p>
+                    </div>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>Envíanos un mensaje directo</p>
+                            <a href="https://wa.me/525537322751" target="_blank" class="contact-link">Abrir WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <div>
+                            <strong>Email</strong>
+                            <p>Escríbenos cuando quieras</p>
+                            <a href="mailto:higtsecure@gmail.com" class="contact-link">higtsecure@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0077b6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                            <strong>Horario de atención</strong>
+                            <p>Lunes a Viernes: 9:00 - 18:00</p>
+                            <p>Sábados: 9:00 - 14:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <img src="img/logo-dental-1.png" alt="Logo LifeDental" class="brand-logo">
+                    </a>
+                    <p>Software de gestión integral para consultorios y clínicas dentales.</p>
+                    <p>HigtSecure Mexico</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#funcionalidades">Funcionalidades</a></li>
+                        <li><a href="#modulos">Módulos</a></li>
+                        <li><a href="#precios">Precios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Soporte</h4>
+                    <ul>
+                        <li><a href="#faq">Preguntas frecuentes</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="mailto:higtsecure@gmail.com">Soporte técnico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LifeDental. Todos los derechos reservados. &mdash; Hecho en México 🇲🇽</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = document.getElementById('navLinks');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        // Close mobile nav on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission with AJAX
+        const form = document.getElementById('contactForm');
+        const formSuccess = document.getElementById('formSuccess');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            try {
+                const response = await fetch('/', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams(formData).toString()
+                });
+                if (response.ok) {
+                    form.querySelectorAll('.form-group, button, .form-note').forEach(el => el.style.display = 'none');
+                    formSuccess.style.display = 'flex';
+                }
+            } catch (err) {
+                alert('Hubo un error al enviar el formulario. Intenta de nuevo.');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
